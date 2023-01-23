@@ -2,7 +2,7 @@ const form = document.querySelector("#form-habits")
 const nlwSetup = new NLWSetup(form)
 const button = document.querySelector('header button')
 
-button.addEventListener('click', add)/*função para que cada click no botão, execute um evento add*/
+button.addEventListener('click', add)
 form.addEventListener("change", save)
 
 function add() {
